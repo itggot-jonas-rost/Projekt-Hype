@@ -7,35 +7,98 @@ body{
 
 .site{
     display: flex;
-    width: 600px;
-    height: 900px;
+    width: 917px;
+    height: 948px;
     background-color: black;
     flex-direction: column;
     align-items: center;
 }
 
-header{
+.header_pic{
     background-color: white;
     flex-grow: 2;
     padding: 0;
     margin-top: 25px;
-    margin-bottom: 7.5px;
+    margin-bottom: 4px;
 }
 
 nav{
     display: flex;
     flex-direction: row;
-    margin: 7.5px;
-    background-color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-grow: 0.15;
+    width: 917px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 7.5px;
+    background-color: green;
+    flex-grow: 7;
+    width: 916px;
+}
+
+.introduction{
+    display: flex;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 4px;
+    width: 100%;
+}
+
+.middle_section{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 8;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
     padding: 0;
 }
 
-div{
+.main_article{
     display: flex;
-    margin: 7.5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: blue;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.picture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    flex-grow: 1;
+    background-color: blue;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.bottom_article{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    flex-grow: 7;
+    margin-top: 4px;
+    width: 100%;
 }
 
 footer{
@@ -43,11 +106,48 @@ footer{
     margin: 7.5px;
     background-color: white;
     flex-grow: 2;
+    width: 916px;
 }
 
-.nav_content {
+.nav_content1 {
     display: flex;
-    margin-left: 5px;
-    margin_right: 5px;
-    background-color: green;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    margin_right: 40px;
+    margin-left: 0;
+    height: 65px;
+    background-color: #128186;
+}
+
+.nav_content2 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin_right: 40px;
+    height: 65px;
+    background-color: #128186;
+}
+
+.nav_content3 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 0;
+    height: 65px;
+    background-color: #128186;
+}
+
+.nav_text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
