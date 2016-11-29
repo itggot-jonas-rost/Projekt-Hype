@@ -41,7 +41,7 @@ nav{
     align-items: center;
     margin-top: 4px;
     margin-bottom: 7.5px;
-    background-color: green;
+    background-color: black;
     flex-grow: 7;
     width: 916px;
 }
@@ -61,12 +61,10 @@ nav{
     flex-direction: row;
     flex-grow: 8;
     justify-content: center;
-    align-items: center;
     background-color: white;
     margin-top: 4px;
     margin-bottom: 4px;
     width: 100%;
-    padding: 0;
 }
 
 .main_article{
@@ -84,7 +82,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+	align-items: center;
     flex-grow: 1;
     background-color: blue;
     margin-left: 10px;
