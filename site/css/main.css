@@ -165,3 +165,97 @@ footer{
     width: 916px;
 	color: white;
 }
+
+.middle_section_why{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 12;
+	flex-shrink: 1;
+	flex-basis: auto;
+    justify-content: center;
+	align-items: top;
+    background-color: black;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+}
+
+.main_article_why{
+    flex: 1;
+    background-color: black;
+    margin-top: 10px;
+	padding: 0;
+	max-height:40%; 
+}
+
+.picture_why{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    flex: 2;
+    background-color: black;
+    margin-bottom: 10px;
+	max-height:225px;
+}
+
+.article_picture_why{
+    max-height: 225px;
+}
+
+
+
+.main {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 3;
+	margin: 1%;
+	width: 100%;
+    background-color: black;
+}
+
+.one {
+	background-color: white;
+	flex-grow: 1;
+	margin-right: 10px;
+}
+
+.two {
+	flex-grow: 2;
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.review_post1{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 100%;
+    color: black;
+}
+
+.review_post2{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: black;
+}
+
+.review_post3{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: white;
+    margin-top: 10px;
+    width: 100%;
+    color: black;
+}
