@@ -28,7 +28,6 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: #128186;
-    flex-grow: 0.15;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
@@ -77,6 +76,17 @@ nav{
     margin-left: 50px;
     margin-right: 50px;
 	color: white;
+	text-decoration: none;
+}
+
+.nav_text:hover{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+	color: white;
+	text-decoration: underline;
+	
 }
 
 .main_part{
@@ -214,9 +224,10 @@ footer{
 }
 
 .one {
-	background-color: white;
+	background-color: #1f1f1f;
 	flex-grow: 1;
 	margin-right: 10px;
+	color: white;
 }
 
 .two {
@@ -233,29 +244,29 @@ footer{
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
-    background-color: white;
+    background-color: #1f1f1f;
     margin-bottom: 10px;
     width: 100%;
-    color: black;
+    color: white;
 }
 
 .review_post2{
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
-    background-color: white;
+    background-color: #1f1f1f;
     margin-bottom: 10px;
     margin-top: 10px;
     width: 100%;
-    color: black;
+    color: white;
 }
 
 .review_post3{
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
-    background-color: white;
+    background-color: #1f1f1f;
     margin-top: 10px;
     width: 100%;
-    color: black;
+    color: white;
 }
