@@ -20,9 +20,10 @@ body{
     flex-grow: 2;
     padding: 0;
     margin-bottom: 4px;
+    margin-top: 0;
 }
 
-nav{
+.nav_main{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -34,6 +35,19 @@ nav{
 	margin-top: 0;
 }
 
+.nav_about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #128186;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0.62px;
+    padding-top: 0.62px;
+}
+
 .nav_content1 {
     display: flex;
     flex-direction: row;
@@ -43,6 +57,7 @@ nav{
     margin_right: 40px;
     margin-left: 0;
     height: 50px;
+    padding: 0;
     background-color: #128186;
 }
 
@@ -55,6 +70,7 @@ nav{
     margin-left: 40px;
     margin_right: 40px;
     height: 50px;
+    padding: 0;
     background-color: #128186;
 }
 
@@ -67,6 +83,7 @@ nav{
     margin-left: 40px;
     margin-right: 0;
     height: 50px;
+    padding: 0;
     background-color: #128186;
 }
 
@@ -217,17 +234,22 @@ footer{
 .main {
 	display: flex;
 	flex-direction: row;
-	flex-grow: 3;
+	flex-grow: 5;
 	margin: 1%;
 	width: 100%;
     background-color: black;
 }
 
-.one {
+.review_post4 {
 	background-color: #1f1f1f;
 	flex-grow: 1;
 	margin-right: 10px;
 	color: white;
+    max-width: 33%;
+    max-height: 100%;
+    padding-bottom: 0;
+    border-right: 5px solid #151414;
+    border-bottom: 5px solid #151414;
 }
 
 .two {
@@ -247,7 +269,10 @@ footer{
     background-color: #1f1f1f;
     margin-bottom: 10px;
     width: 100%;
+    max-height: 33%;
     color: white;
+    border-right: 5px solid #151414;
+    border-bottom: 5px solid #151414;
 }
 
 .review_post2{
@@ -258,7 +283,10 @@ footer{
     margin-bottom: 10px;
     margin-top: 10px;
     width: 100%;
+    max-height: 33%;
     color: white;
+    border-right: 5px solid #151414;
+    border-bottom: 5px solid #151414;
 }
 
 .review_post3{
@@ -268,5 +296,27 @@ footer{
     background-color: #1f1f1f;
     margin-top: 10px;
     width: 100%;
+    max-height: 33%;
     color: white;
+    border-right: 5px solid #151414;
+    border-bottom: 5px solid #151414;
+}
+
+h3{
+    margin: 10px;
+    margin-top: 0;
+	color: white;
+}
+
+.review_text{
+	margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+	color: white;
+}
+
+.review_title{
+    margin: 10px;
+    margin-bottom: 0;
+	color: white;
 }
