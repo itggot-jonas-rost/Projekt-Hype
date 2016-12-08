@@ -20,7 +20,7 @@ body{
     flex-grow: 2;
     padding: 0;
     margin-bottom: 4px;
-    margin-top: 0;
+    margin-top: 50px;
 }
 
 .nav_main{
@@ -29,10 +29,11 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #128186;
-    width: 100%;
+    width: 917px;
     padding-left: 0;
     padding-right: 0;
 	margin-top: 0;
+	position: fixed;
 }
 
 .nav_about{
@@ -41,11 +42,10 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #128186;
-    width: 100%;
+    width: 917px;
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 0.62px;
-    padding-top: 0.62px;
+	position: fixed;
 }
 
 .nav_content1 {
